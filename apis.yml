@@ -1,23 +1,63 @@
 aid: concord-data-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/concord-data-systems.png
 name: Concord Data Systems
-description: Concord Data Systems is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Concord Data Systems was a telecommunications equipment manufacturer founded in 1979 by Ken
+  Miller (previously Director of Modem Development at Codex) and based in Marlborough, Massachusetts. The
+  company designed and sold high-speed full-duplex dial-up telephone modems for transmitting digital computer
+  data in analog form over the public switched telephone network. As the modem hardware market commoditized,
+  the business pivoted from industrial data communications to the emerging market for network performance
+  management software and was renamed Concord Communications, best known for its eHealth network management
+  suite. Battery Ventures was one of thirteen investors in that company. Concord Communications was acquired
+  by CA (Computer Associates) on 2005-06-07 for approximately $350 million ($330M cash plus roughly $20M
+  of assumed net debt); CA was itself acquired by Broadcom in 2018. Concord Data Systems is therefore a
+  historical, defunct entity: it operates no website, no developer portal, and no API surface today. It is
+  retained in the API Evangelist network as a venture-portfolio lineage record only.'
 url: https://raw.githubusercontent.com/api-evangelist/concord-data-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-successor: Concord Communications
+x-acquired-by: CA (Computer Associates)
+x-acquired-date: '2005-06-07'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Networking
+- Telecommunications
+- Modems
+- Network Management
+- Hardware
+- Acquired
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Defunct company (1979-2005 lineage; acquired by CA). No live domain, no docs host, no API surface
+    to enrich. concorddata.com resolves to a Brandsly domain-for-sale parking page (unrelated); concorddatasystems.com
+    and concord-data.com do not resolve. All .well-known probes against the parked domain returned 403.'
