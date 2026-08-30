@@ -72,3 +72,9 @@ x-enrichment:
   notes: 'Defunct company (1979-2005 lineage; acquired by CA). No live domain, no docs host, no API surface
     to enrich. concorddata.com resolves to a Brandsly domain-for-sale parking page (unrelated); concorddatasystems.com
     and concord-data.com do not resolve. All .well-known probes against the parked domain returned 403.'
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/broadcom/
+  name: Broadcom
+  x-relationship: acquired
+  x-evidence: "Concord Communications was acquired by CA (Computer Associates) on 2005-06-07 for approximately $350 million ($330M cash plus roughly $20M of assumed net debt); CA was itself acquired by Broadcom in 2018."
