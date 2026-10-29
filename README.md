@@ -64,23 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Concord Data Systems was a telecommunications equipment manufacturer founded in 1979 by Ken Miller (previously Director of Modem Development at Codex) and based in Marlborough, Massachusetts. It designed and sold high-speed full-duplex dial-up telephone modems for transmitting digital computer data in analog form.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-As the modem hardware market commoditized, the business pivoted from industrial data communications to network performance management software and was renamed **Concord Communications** (known for the eHealth network management suite). Concord Communications was acquired by **CA (Computer Associates)** on 2005-06-07 for approximately $350 million. CA was itself acquired by Broadcom in 2018.
+Concord Data Systems was a telecommunications equipment manufacturer founded in 1979 by Ken Miller (previously Director of Modem Development at Codex) and based in Marlborough, Massachusetts. The company designed and sold high-speed full-duplex dial-up telephone modems for transmitting digital computer data in analog form over the public switched telephone network. As the modem hardware market commoditized, the business pivoted from industrial data communications to the emerging market for network performance management software and was renamed Concord Communications, best known for its eHealth network management suite. Battery Ventures was one of thirteen investors in that company. Concord Communications was acquired by CA (Computer Associates) on 2005-06-07 for approximately $350 million ($330M cash plus roughly $20M of assumed net debt); CA was itself acquired by Broadcom in 2018. Concord Data Systems is therefore a historical, defunct entity: it operates no website, no developer portal, and no API surface today. It is retained in the API Evangelist network as a venture-portfolio lineage record only.
 
-**Status: defunct.** There is no live website, developer portal, documentation, or API surface for this entity. It is retained in the API Evangelist network as a venture-portfolio lineage record only.
+**Areas:** Company · Defunct · Networking · Telecommunications · Modems · Network Management · Hardware · Acquired
 
-Backed by: battery-ventures
+## Concord Data Systems on APIs.io (historical record)
 
-## Enrichment
+Everything profiled for Concord Data Systems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/concord-data-systems/](https://apis.io/providers/concord-data-systems/)** — or go straight to one of the APIs or properties below.
 
-Last enrichment pass: 2026-07-20 (`nochange`). Probes performed:
+## API Evangelist rating
 
-| Target | Result |
-|---|---|
-| `concorddata.com` | 200, redirects to a Brandsly domain-for-sale parking page (unrelated to this company) |
-| `concorddatasystems.com` | does not resolve (no A record) |
-| `concord-data.com` | does not resolve (no A record) |
-| `concorddata.com/.well-known/{security.txt,api-catalog,openid-configuration}` | 403 |
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-No artifacts were created — there is nothing real to capture.
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Concord Data Systems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/concord-data-systems/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
